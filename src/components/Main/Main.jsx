@@ -2,14 +2,11 @@ import React from 'react';
 import './Main.css';
 import Timer from '../Timer/Timer';
 import Button from '../UI/button/Button';
-import BigTitle from '../UI/BigTitle/BigTitle';
 
 const Main = () => {
-    const deadDate = "June, 28 , 2023";
-
     return (
         <main>
-            <div className="main">
+            <section className="main" id='main'>
                 <div className="content">
                     <div className="big-title">
                         Discover and
@@ -43,12 +40,12 @@ const Main = () => {
                     </div>
                 </div>
                 <div className="main-img">
-                    <img src='/img/mainimg.png' alt="robot img nft" className='main-img-url' />
+                    <img src='/img/mainimg.png' alt="robot woman img nft" className='main-img-url' />
                     <div className="main-img-table">
                         <div className="main-img-table-info">
                             <div className="main-img-table-time">
                                 Ends in
-                                {<Timer deadline={deadDate} />}
+                                {<Timer deadline={"Jule, 28 , 2023"} />}
                             </div>
                             <div className="main-img-table-bid">Current bid
                                 <p className='main-img-table-bid-value'>
@@ -62,7 +59,7 @@ const Main = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
         </main>
     );
 };

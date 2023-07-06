@@ -4,7 +4,7 @@ import Button from '../UI/button/Button';
 
 const CreateBlock = () => {
     return (
-        <div className='nft-block'>
+        <section className='nft-block' id='community'>
             <div className="nft-content">
                 <div className="big-title" style={{ fontSize: 48 , width:462}}>
                     Create And Sell
@@ -23,11 +23,11 @@ const CreateBlock = () => {
                 </div>
             </div>
             <div className="nft-block-img">
-                <img src="/img/nft-block-1.png" alt="" className="nft-block-img-src up-img" />
-                <img src="/img/nft-block-2.png" alt="" className="nft-block-img-src down-img" />
+                <img src="/img/nft-block-1.png" alt="women cyber with red line in face nft" className="nft-block-img-src up-img" />
+                <img src="/img/nft-block-2.png" alt="japan women nft" className="nft-block-img-src down-img" />
 
             </div>
-        </div>
+        </section>
     );
 };
 

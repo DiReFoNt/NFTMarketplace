@@ -43,7 +43,7 @@
 }
 
 .footer-subcontent {
-    color:#fff;
+    color: #fff;
     font-size: 16px;
     font-family: 'Jost';
     font-style: normal;
@@ -55,18 +55,28 @@
     margin-top: 48px;
 }
 
-.footer-subcontent-policy span{
+.footer-subcontent-policy span {
     margin-right: 26px;
     width: 250px;
     height: 25px;
 }
 
-.footer-subcontent-link{
+.footer-subcontent-link {
     text-decoration: none;
-    color:#fff;
+    color: #fff;
 }
 
-.footer-subcontent-link:hover{
+.footer-subcontent-link:hover {
     opacity: 0.7;
     transition: all 0.3s;
+}
+
+@media (max-width:1250px) {
+    .footer-title-text {
+        font-size: 14px;
+        width: 210px;
+    }
+    .footer-subcontent {
+        font-size: 14px;
+    }
 }

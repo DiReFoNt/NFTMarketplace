@@ -19,3 +19,24 @@
     background-color: rgba(214, 239, 14, 0.5);
     transition: all 0.3s;
 }
+
+@media (max-width:1250px) {
+    .button {
+        font-family: 'Jost';
+        height: 45px;
+        padding: 12px 30px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+        color: #FFFFFF;
+        background: #D6EF0E;
+        border: none;
+        /* margin-top: 40px; */
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+    }
+    
+    
+}

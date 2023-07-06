@@ -6,3 +6,9 @@
     color: #fff;
     margin-top: 5px;
 }
+
+@media (max-width:1200px) {
+    .timer {
+        font-size: 14px;
+    }
+}

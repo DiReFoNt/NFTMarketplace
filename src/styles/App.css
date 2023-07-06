@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
+
 }
 
 
@@ -10,7 +12,6 @@
     background-image: url('/public/img/BgIMage.png');
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
 }
 
 .colortext {
@@ -68,7 +69,6 @@
     font-weight: 700;
     line-height: 120%;
     color: #fff;
-
 }
 
 .up-img {
@@ -86,4 +86,38 @@
     width: 410px;
     height: 475px;
     flex-shrink: 0;
+}
+
+@media (max-width:1250px) {
+    .big-title {
+        max-width: 450px;
+        font-size: 44px;
+    }
+    
+    .big-subtitle {
+        font-size: 14px;
+        max-width: 450px;
+    }
+
+    
+    .big-button-label-link {
+        font-size: 14px;
+    }
+
+    .small-content {
+        width: 506px;
+        font-size: 44px;
+        font-family: 'Kalam';
+        font-weight: 500;
+        line-height: 120%;
+        color: #fff;
+    }
+    
+    .small-title {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        height: 90px;
+    }
 }

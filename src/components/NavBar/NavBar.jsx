@@ -8,15 +8,16 @@ const NavBar = () => {
         <div className='nav'>
             <div className="nav-items">
                 <div className="nav-item">
-                    <a href="#" className="nav-item-link">Marketplace</a></div>
+                    <a href="#main" className="nav-item-link">Main</a></div>
                 <div className="nav-item">
-                    <a href="#" className="nav-item-link">Artists</a></div>
+                    <a href="#marketplace" className="nav-item-link">Marketplace</a></div>
                 <div className="nav-item">
-                    <a href="#" className="nav-item-link">Community</a></div>
+                    <a href="#community" className="nav-item-link">Community</a></div>
+
                 <div className="nav-item">
-                    <a href="#" className="nav-item-link">Collections</a></div>
+                    <a href="#artists" className="nav-item-link">Artists</a></div>
             </div>
-            {<Button text={'Contact'} />}
+            {<Button text={'Contact'} link={'#contact'} />}
         </div>
     );
 };

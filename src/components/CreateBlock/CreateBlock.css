@@ -43,3 +43,22 @@
     height: 475px;
     flex-shrink: 0;
 }
+
+@media (max-width:1250px) {
+    .nft-block-img {
+        width: 690px;
+        height: 509px;
+    }
+
+    .up-img {
+        width: 330px;
+        height: 320px;
+        left: 5%;
+    }
+    
+    .down-img {
+        width: 330px;
+        height: 400px;
+    }
+    
+}

@@ -1,13 +1,12 @@
 import React from 'react';
 import './Contact.css';
-import Button from '../UI/button/Button';
 
 const Contact = () => {
     return (
-        <div className='contact'>
+        <section className='contact' id='contact'>
             <div className="contact-imgs">
-                <img src="/img/contact/contact1.png" alt=""  className='contact-img contact-down-img'/>
-                <img src="/img/contact/contact2.png" alt=""  className='contact-img contact-up-img'/>
+                <img src="/img/contact/contact1.png" alt="woman pc future nft"  className='contact-img contact-down-img'/>
+                <img src="/img/contact/contact2.png" alt="japan samurai cyber nft"  className='contact-img contact-up-img'/>
 
             </div>
             <div className="contact-submit">
@@ -22,7 +21,7 @@ const Contact = () => {
                     <button type="submit" className='contact-input-button'>Subscribe</button>
                 </form>
             </div>
-        </div>
+        </section>
     );
 };
 

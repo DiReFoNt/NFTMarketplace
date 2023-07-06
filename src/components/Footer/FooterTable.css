@@ -30,3 +30,13 @@
     font-weight: 700;
     line-height: 120%;
 }
+
+@media (max-width:1250px) {
+    .footer-table-th {
+        font-size: 18px;
+    }
+
+    .footer-table-td {
+        font-size: 14px;
+    }
+}

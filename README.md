@@ -68,3 +68,19 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+Tasks:
+1.Create cart artist, place to component
+2.Adaptive and Responsive design
+    2.1. ~~1250px~~	
+    2.2. 1000px
+    2.3. 768px
+    2.4. 480px
+4.Comment code
+5.~~Write alt atribute~~
+6.Replace default import/export to classic
+7. Adding logic to component contact(send to server to e-mail)
+8.Create a card date structure that renders to a component by properties
+9.Fixed bug with NavBar
+10. Replace folder UI to index.js

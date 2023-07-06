@@ -20,3 +20,11 @@
     transition: all 0.3s;
     border: 1px solid #131E3A;
 }
+
+@media (max-width:1250px) {
+    .button-black {
+        width: 100px;
+        height: 50px;
+    }    
+    
+}

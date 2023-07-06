@@ -6,12 +6,12 @@
 }
 
 .content {
-    width: 545px;
+    max-width: 545px;
 }
 
 .main-img {
-    width: 544px;
-    height: 585px;
+    max-width: 544px;
+    max-height: 585px;
 }
 
 .content-static {
@@ -22,7 +22,6 @@
 }
 
 .content-static-item {
-    /* width: 140px; */
     border-right: 1px solid #D6EF0E;
     padding-right: 24px;
 }
@@ -52,8 +51,8 @@
 }
 
 .main-img-url{
-    width: 504px;
-    height: 544px;
+    max-width: 504px;
+    max-height: 544px;
     overflow: hidden;
     border-radius: 24px;
 }
@@ -64,8 +63,8 @@
 }
 
 .main-img-table {
-    width: 344px;
-    height: 169px;
+    max-width: 344px;
+    max-height: 169px;
     background-color: #131E3A;
     position: absolute;
     bottom: -56px;
@@ -140,4 +139,42 @@
     color: #131E3A;
     transition: all 0.3s;
     border: 1px solid #131E3A;
+}
+
+@media (max-width:1250px) {
+    .main-img-url{
+        max-width: 380px;
+        max-height: 400px;
+        overflow: hidden;
+        border-radius: 24px;
+    }
+
+    .main-img-table {
+        max-width: 344px;
+        max-height: 169px;
+        bottom: 40px;
+        right: -40px;
+    }
+
+    .main-img-table-info {
+        column-gap: 40px;
+    }
+
+    .main-img-table-time {
+        font-size: 12px;
+    }
+
+    .main-img-table-bid {
+        font-size: 12px;
+    }
+
+    .main-img-table-bid-value {
+        font-size: 14px;
+    }
+
+    .content-static-item-title {
+        font-size: 40px;
+    }
+
+    
 }
