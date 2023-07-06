@@ -1,0 +1,9 @@
+.marketplace {
+    padding: 92px 111px;
+
+}
+
+.marketplace-cards{
+    display: flex;
+    justify-content: space-around;
+}

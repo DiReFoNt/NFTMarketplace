@@ -1,0 +1,22 @@
+.button-black {
+    font-size: 16px;
+    font-family: 'Jost';
+    font-weight: 700;
+    line-height: 120%;
+    color: #D6EF0E;
+    border-radius: 8px;
+    border: 1px solid #D6EF0E;
+    background-color: #131E3A;
+    text-align: center;
+    width: 168px;
+    height: 48px;
+    position: relative;
+    bottom: 0;
+}
+
+.button-black:hover {
+    background-color: #D6EF0E;
+    color: #131E3A;
+    transition: all 0.3s;
+    border: 1px solid #131E3A;
+}

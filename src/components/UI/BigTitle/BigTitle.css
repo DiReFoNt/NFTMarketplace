@@ -1,0 +1,35 @@
+.big-title {
+    color: #FFFFFD;
+    width: 550px;
+    font-size: 64px;
+    font-family: 'Kalam';
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.big-subtitle {
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: 'Jost';
+    line-height: 160%;
+    color: #fff;
+}
+
+.big-button-label {
+    margin-left: 36px;
+}
+
+.big-button-label:hover {
+    margin-left: 45px;
+    transition: all 0.3s;
+}
+
+.big-button-label-link {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Jost';
+    font-weight: 700;
+    line-height: 120%;
+    color: #fff;
+
+}

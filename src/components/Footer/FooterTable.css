@@ -1,0 +1,32 @@
+.footer-table {
+    text-align: justify;
+}
+
+.footer-table-link {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 94px;
+}
+
+.footer-table-link:hover {
+    opacity: 0.7;
+    transition: all 0.3s;
+}
+
+.footer-table-td {
+    font-size: 16px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    padding-top: 8px;
+}
+
+.footer-table-th {
+    padding-bottom: 24px;
+    font-size: 20px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}

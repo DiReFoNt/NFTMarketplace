@@ -1,23 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import styled from "styled-components";
+import './styles/App.css';
+import NavBar from "./components/NavBar/NavBar";
+import Main from "./components/Main/Main";
+import Marketplace from "./components/Marketplace/Marketplace";
+import CreateBlock from "./components/CreateBlock/CreateBlock";
+import Artists from "./components/Artists/Artists";
+import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
+
+const AppWrapper = () => styled.div`
+background-image: url('/public/img/BgIMage.png');
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+`
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavBar />
+      <Main />
+      <Marketplace />
+      <CreateBlock />
+      <Artists />
+      <Contact />
+      <Footer />
     </div>
   );
 }

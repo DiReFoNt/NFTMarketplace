@@ -1,0 +1,45 @@
+.nft-block {
+    height: 743px;
+    padding: 92px 111px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nft-content {
+    /* display: flex; */
+    width: 462px;
+}
+
+.nft-block-img {
+    width: 740px;
+    height: 559px;
+    display: flex;
+    position: relative;
+}
+
+.nft-block-img-src {
+    border-radius: 24px;
+}
+
+.nft-block-img-src:hover {
+    transform: scale(1.05, 1.05);
+    transition: all 0.3s;
+}
+
+.up-img {
+    position: absolute;
+    width: 410px;
+    height: 400px;
+    flex-shrink: 0;
+    bottom: 0;
+    z-index: 2;
+}
+
+.down-img {
+    position: absolute;
+    right: 0;
+    width: 410px;
+    height: 475px;
+    flex-shrink: 0;
+}

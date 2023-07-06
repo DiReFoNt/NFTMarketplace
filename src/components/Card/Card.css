@@ -1,0 +1,66 @@
+.card {
+    width: 410px;
+    height: 498px;
+    padding: 20px;
+    background-color: #131E3A;
+    border-radius: 28px;
+    border-top: 1px solid #D6EF0E;
+    margin-top: 64px;
+}
+
+.card-name {
+    font-size: 24px;
+    font-family: 'Jost';
+    font-weight: 700;
+    line-height: 120%;
+    color: #fff;
+}
+
+.card-price {
+    font-size: 16px;
+    font-family: 'Jost';
+    font-weight: 700;
+    line-height: 120%;
+    color: #fff;
+}
+
+.card-price img {
+    width: 24px;
+    height: 24px;
+}
+
+.card-img{
+    width: 370px;
+    height: 340px;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.card-img-url:hover{
+    transform: scale(1.05,1.05);
+    transition: all 0.3s;
+}
+
+
+.card-title {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-subtitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 14px;
+    font-family: 'Jost';
+    line-height: 160%;
+    color: #838382;
+    padding-top: 18px;
+
+}
+
+.card-subtitle-time{
+    width: 168px;
+    height: 48px;
+}

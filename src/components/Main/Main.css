@@ -1,0 +1,143 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+    padding: 92px 111px;
+
+}
+
+.content {
+    width: 545px;
+}
+
+.main-img {
+    width: 544px;
+    height: 585px;
+}
+
+.content-static {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 72px;
+
+}
+
+.content-static-item {
+    /* width: 140px; */
+    border-right: 1px solid #D6EF0E;
+    padding-right: 24px;
+}
+
+.content-static-item:last-child {
+    border: none;
+}
+
+.content-static-item-title {
+    font-size: 48px;
+    font-family: 'Kalam';
+    font-weight: 500;
+    line-height: 120%;
+    color: #fff;
+}
+
+.content-static-item-subtitle {
+    font-size: 16px;
+    font-family: 'Jost';
+    line-height: 160%;
+    color: #fff;
+}
+
+.main-img {
+    margin-right: 55px;
+    position: relative;
+}
+
+.main-img-url{
+    width: 504px;
+    height: 544px;
+    overflow: hidden;
+    border-radius: 24px;
+}
+
+.main-img-url:hover{
+    transform: scale(1.05,1.05);
+    transition: all 0.3s;
+}
+
+.main-img-table {
+    width: 344px;
+    height: 169px;
+    background-color: #131E3A;
+    position: absolute;
+    bottom: -56px;
+    right: -40px;
+    border-radius: 8px;
+    border-top: 1px solid #D6EF0E;
+    padding: 20px;
+}
+
+.main-img-table-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 20px;
+    column-gap: 30px;
+    position: relative;
+}
+
+.main-img-table-time {
+    font-size: 16px;
+    font-family: 'Jost';
+    line-height: 160%;
+    color: #D6EF0E;
+}
+
+.main-img-table-timer {
+    font-size: 16px;
+    font-family: 'Jost';
+    font-weight: 700;
+    line-height: 120%;
+    color: #fff;
+    margin-top: 5px;
+}
+
+.main-img-table-bid {
+    font-size: 16px;
+    font-family: 'Jost';
+    line-height: 160%;
+    color: #D6EF0E;
+}
+
+.main-img-table-bid-value {
+    font-size: 16px;
+    font-family: 'Jost';
+    font-weight: 700;
+    line-height: 120%;
+    color: #fff;
+    margin-top: 5px;
+}
+
+.button-content-link{
+    position: absolute;
+    bottom: 0;
+    width: 100%;     
+}
+.button-content {
+    font-size: 16px;
+    font-family: 'Jost';
+    font-weight: 700;
+    line-height: 120%;
+    color: #D6EF0E;
+    border-radius: 8px;
+    border: 1px solid #D6EF0E;
+    background-color: #131E3A;
+    text-align: center;
+    width: 100%;
+    height: 48px;
+}
+
+.button-content:hover {
+    background-color: #D6EF0E;
+    color: #131E3A;
+    transition: all 0.3s;
+    border: 1px solid #131E3A;
+}

@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.App {
+    background-image: url('/public/img/BgIMage.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.colortext {
+    color: #D6EF0E;
+}
+
+.small-content {
+    width: 506px;
+    font-size: 48px;
+    font-family: 'Kalam';
+    font-weight: 500;
+    line-height: 120%;
+    color: #fff;
+}
+
+.small-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 116px;
+}
+
+.big-title {
+    color: #FFFFFD;
+    width: 550px;
+    font-size: 64px;
+    font-family: 'Kalam';
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.big-subtitle {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    font-family: 'Jost';
+    line-height: 160%;
+    color: #fff;
+}
+
+.big-button-label {
+    margin-left: 36px;
+}
+
+.big-button-label:hover {
+    margin-left: 45px;
+    transition: all 0.3s;
+}
+
+.big-button-label-link {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Jost';
+    font-weight: 700;
+    line-height: 120%;
+    color: #fff;
+
+}
+
+.up-img {
+    position: absolute;
+    width: 410px;
+    height: 400px;
+    flex-shrink: 0;
+    bottom: 0;
+    z-index: 2;
+}
+
+.down-img {
+    position: absolute;
+    right: 0;
+    width: 410px;
+    height: 475px;
+    flex-shrink: 0;
+}
