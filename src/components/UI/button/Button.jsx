@@ -9,4 +9,4 @@ const Button = ({text, className,link}) => {
     );
 };
 
-export default Button;
+export {Button};

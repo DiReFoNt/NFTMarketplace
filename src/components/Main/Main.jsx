@@ -1,7 +1,7 @@
 import React from 'react';
-import './Main.css';
-import Timer from '../Timer/Timer';
-import Button from '../UI/button/Button';
+import '../../styles/Main.css';
+import {Timer} from '../Timer/Timer';
+import {Button} from '../UI/button/Button';
 
 const Main = () => {
     return (
@@ -10,7 +10,7 @@ const Main = () => {
                 <div className="content">
                     <div className="big-title">
                         Discover and
-                        Collect The Best NFTs <br></br>
+                        Collect The Best NFTs <br/>
                         <span className="colortext">
                             Digital Art.
                         </span>
@@ -64,4 +64,4 @@ const Main = () => {
     );
 };
 
-export default Main;
+export {Main};

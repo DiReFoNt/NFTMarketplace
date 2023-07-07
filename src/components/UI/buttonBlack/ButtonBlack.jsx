@@ -9,4 +9,4 @@ const ButtonBlack = () => {
     );
 };
 
-export default ButtonBlack;
+export {ButtonBlack};

@@ -1,5 +1,5 @@
 import React, { useEffect,useState } from 'react';
-import './Timer.css';
+import '../../styles/Timer.css';
 
 const Timer = ({ deadline }) => {
     const [days, setDays] = useState(0);
@@ -32,4 +32,4 @@ const Timer = ({ deadline }) => {
     );
 };
 
-export default Timer;
+export {Timer};

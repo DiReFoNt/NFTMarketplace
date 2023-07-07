@@ -1,0 +1,20 @@
+.artists {
+    padding: 92px 111px;
+}
+
+.artists-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 64px;
+}
+
+.artist-cards-block-a {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 850px;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 30px;
+}

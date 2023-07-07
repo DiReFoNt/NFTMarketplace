@@ -1,6 +1,6 @@
 import React from 'react';
-import './NavBar.css';
-import Button from '../UI/button/Button';
+import '../../styles/NavBar.css';
+import {Button} from '../UI/button/Button';
 
 const NavBar = () => {
 
@@ -22,4 +22,4 @@ const NavBar = () => {
     );
 };
 
-export default NavBar;
+export {NavBar};

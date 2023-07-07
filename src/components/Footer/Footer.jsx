@@ -1,6 +1,6 @@
 import React from 'react';
-import './Footer.css';
-import FooterTable from './FooterTable';
+import '../../styles/Footer.css';
+import {FooterTable} from './FooterTable';
 
 const Footer = () => {
     return (
@@ -48,4 +48,4 @@ const Footer = () => {
     );
 };
 
-export default Footer;
+export {Footer};

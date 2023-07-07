@@ -1,5 +1,5 @@
 import React from 'react';
-import './FooterTable.css';
+import '../../styles/FooterTable.css';
 
 const FooterTable = () => {
     return (
@@ -76,4 +76,4 @@ const FooterTable = () => {
     );
 };
 
-export default FooterTable;
+export {FooterTable};

@@ -1,6 +1,6 @@
 import React from 'react';
-import './CreateBlock.css';
-import Button from '../UI/button/Button';
+import '../../styles/CreateBlock.css';
+import {Button} from '../UI/button/Button';
 
 const CreateBlock = () => {
     return (
@@ -9,9 +9,7 @@ const CreateBlock = () => {
                 <div className="big-title" style={{ fontSize: 48 , width:462}}>
                     Create And Sell
                     Your
-                    <span className="colortext">
-                        {" Best NFTs"}
-                    </span>
+                    <span className="colortext"> Best NFTs</span>
                 </div>
                 <div className="big-subtitle">
                     Start exploring the world of digital art and NFTs today and take control of your digital assets with confidence!                </div>
@@ -31,4 +29,4 @@ const CreateBlock = () => {
     );
 };
 
-export default CreateBlock;
+export {CreateBlock};
