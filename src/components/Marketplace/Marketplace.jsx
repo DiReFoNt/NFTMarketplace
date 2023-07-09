@@ -1,15 +1,18 @@
 import React from 'react';
+import { Card } from '../index.jsx';
+import { Button } from '../UI/index.jsx';
 import '../../styles/Marketplace.css';
-import { Button } from '../UI/button/Button';
-import { Card } from '../Card/Card';
 
 const Marketplace = () => {
 
+    // Data cards
     const cardsData = [
         { name: 'Cyberpunk Cocomo', price: 490, deadline: "Jule, 30 , 2023", src: '/img/marketplace/card-cyber.png' },
         { name: 'Charge, Qi tiao yu', price: 520, deadline: "Jule, 26 , 2023", src: '/img/marketplace/card-charge.png' },
         { name: 'Surgeon, Josh Rife', price: 380, deadline: "Jule, 10 , 2023", src: '/img/marketplace/card-surgeon.png' }
     ]
+
+    // Function to render in Data to component Card
 
     const cardsRender = cardsData.map(({ name, price, deadline, src }) => {
         return (

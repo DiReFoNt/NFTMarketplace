@@ -77,11 +77,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ###     2.2. 1000px
 ###    2.3. 768px
 ###     2.4. 480px
-### 4.Comment code
+### 4.~~Comment code~~
 ### 5.~~Write alt attribute~~
 ### 6.~~Replace default import/export to classic~~
-### 7. Adding logic to the contact component (sending to the server by email) 
+### 7. ~~Add validation input with Formik and Yup~~
 ### 8..~~Create a Card and CardArtist date structure that renders to a component by properties.~~
 ### 9.Fixed bug with NavBar
-### 10. Replace folder UI to index.js
+### 10. ~~Create file index.jsx in folder UI and components~~
 ### 11. ~~Change to close all tags~~
+### 12. Change component Timer try use less hooks

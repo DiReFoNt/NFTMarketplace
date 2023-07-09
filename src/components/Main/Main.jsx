@@ -1,7 +1,7 @@
 import React from 'react';
+import { Timer } from '../index.jsx';
+import { Button } from '../UI/index.jsx';
 import '../../styles/Main.css';
-import {Timer} from '../Timer/Timer';
-import {Button} from '../UI/button/Button';
 
 const Main = () => {
     return (

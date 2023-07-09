@@ -1,0 +1,61 @@
+.my-form {
+    margin-top: 40px;
+    position: relative;
+    display: inline-block;
+}
+
+.my-input {
+    width: 516px;
+    height: 60px;
+    padding: 16px 24px;
+    align-items: center;
+    flex-shrink: 0;
+    border: none;
+    font-size: 16px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    border-radius: 10px;
+    background-color: #131E3A;
+    color: #FFFFFDB8;
+}
+
+.my-input-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    display: inline-flex;
+    height: 52px;
+    padding: 12px 40px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #D6EF0E;
+    color: #FFF;
+    font-size: 16px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    border: none;
+}
+
+.my-input-button:hover {
+    background-color: rgba(214, 239, 14, 0.5);
+    transition: all 0.3s;
+}
+
+@media (max-width:1250px) {
+    .my-input {
+        font-size: 14px;
+        width: 480px;
+        height: 50px;
+    }
+    .my-input-button{
+        height: 40px;
+        font-size: 14px;
+
+    }
+}

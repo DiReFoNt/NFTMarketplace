@@ -1,6 +1,7 @@
 import React from 'react';
+import { FooterTable } from '../index.jsx';
 import '../../styles/Footer.css';
-import {FooterTable} from './FooterTable';
+
 
 const Footer = () => {
     return (

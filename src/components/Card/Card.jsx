@@ -1,7 +1,7 @@
 import React from 'react';
+import { Timer } from '../index.jsx';
+import { ButtonBlack } from '../UI/index.jsx';
 import '../../styles/Card.css';
-import {ButtonBlack} from '../UI/buttonBlack/ButtonBlack';
-import {Timer} from '../Timer/Timer';
 
 const Card = ({ name, price, deadline, src }) => {
     return (

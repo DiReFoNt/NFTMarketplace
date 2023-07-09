@@ -1,4 +1,5 @@
 import React from 'react';
+import { ValidationSchema } from '../UI/form/MyForm';
 import '../../styles/Contact.css';
 
 const Contact = () => {
@@ -16,10 +17,7 @@ const Contact = () => {
                 <div className="big-subtitle" style={{ width: 520, height: 52 }}>
                     We have a blog related to NFT so we can share thoughts and routines on our blog which is updated weekly
                 </div>
-                <form className='contact-form'>
-                    <input type="text" placeholder='Enter your e-mail'  className='contact-input'/>
-                    <button type="submit" className='contact-input-button'>Subscribe</button>
-                </form>
+                <ValidationSchema/>
             </div>
         </section>
     );
