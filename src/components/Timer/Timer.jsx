@@ -1,20 +1,18 @@
-import React, { useEffect,useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import '../../styles/Timer.css';
 
 const Timer = ({ deadline }) => {
-    const [days, setDays] = useState(0);
-    const [hours, setHours] = useState(0);
-    const [minutes, setMinutes] = useState(0);
-    const [seconds, setSeconds] = useState(0);
-
+    const [timer, setTimer] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
 
     const getTime = (deadline) => {
         const time = Date.parse(deadline) - Date.now();
 
-        setDays(Math.floor(time / (1000 * 60 * 60 * 24)));
-        setHours(Math.floor((time / (1000 * 60 * 60)) % 24));
-        setMinutes(Math.floor((time / 1000 / 60) % 60));
-        setSeconds(Math.floor((time / 1000) % 60));
+        setTimer({
+            days: Math.floor(time / (1000 * 60 * 60 * 24)),
+            hours: Math.floor((time / (1000 * 60 * 60)) % 24),
+            minutes: Math.floor((time / 1000 / 60) % 60),
+            seconds: Math.floor((time / 1000) % 60)
+        })
     }
 
     useEffect(() => {
@@ -23,13 +21,13 @@ const Timer = ({ deadline }) => {
         }, 1000)
 
         return () => clearInterval(interval);
-    }, [seconds, deadline])
+    }, [timer.seconds, deadline])
 
     return (
         <div className='timer'>
-            {days}d : {hours}h : {minutes}m
+            {timer.days}d : {timer.hours}h : {timer.minutes}m
         </div>
     );
 };
 
-export {Timer};
+export { Timer };

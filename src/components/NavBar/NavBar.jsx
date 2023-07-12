@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from '../UI/index.jsx';
+import { Button } from '../UI';
 import '../../styles/NavBar.css';
 
 const NavBar = () => {

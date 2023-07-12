@@ -1,6 +1,6 @@
 import React from 'react';
 import { CardArtist } from '../index.jsx';
-import { Button } from '../UI/index.jsx';
+import { Button } from '../UI';
 import '../../styles/Artists.css';
 
 

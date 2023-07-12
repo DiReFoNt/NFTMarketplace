@@ -46,19 +46,37 @@
 
 @media (max-width:1250px) {
     .nft-block-img {
-        width: 690px;
+        width: 590px;
         height: 509px;
     }
 
     .up-img {
-        width: 330px;
-        height: 320px;
-        left: 5%;
+        width: 320px;
+        height: 370px;
+        left: 0%;
     }
-    
+
     .down-img {
-        width: 330px;
-        height: 400px;
+        width: 280px;
+        height: 345px;
+        right: 0%;
     }
-    
+
+}
+
+@media (max-width:1050px) {
+
+    .up-img {
+        width: 320px;
+        height: 370px;
+        left: 0%;
+    }
+
+    .down-img {
+        width: 280px;
+        height: 345px;
+        right: 0%;
+        top: 7%;
+    }
+
 }

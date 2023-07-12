@@ -1,5 +1,5 @@
 import React from "react";
-import { NavBar, Main, Marketplace, CreateBlock, Artists, Contact, Footer } from '../src/components/index.jsx';
+import { NavBar, Main, Marketplace, CreateBlock, Artists, Contact, Footer } from '../src/components';
 import './styles/App.css';
 
 

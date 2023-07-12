@@ -1,6 +1,6 @@
 import React from 'react';
 import { Timer } from '../index.jsx';
-import { Button } from '../UI/index.jsx';
+import { Button } from '../UI';
 import '../../styles/Main.css';
 
 const Main = () => {

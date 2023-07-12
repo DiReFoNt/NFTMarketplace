@@ -85,4 +85,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ### 9.Fixed bug with NavBar
 ### 10. ~~Create file index.jsx in folder UI and components~~
 ### 11. ~~Change to close all tags~~
-### 12. Change component Timer try use less hooks
+### 12. ~~Change component Timer try use less hooks~~

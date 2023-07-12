@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card } from '../index.jsx';
-import { Button } from '../UI/index.jsx';
+import { Button } from '../UI';
 import '../../styles/Marketplace.css';
 
 const Marketplace = () => {

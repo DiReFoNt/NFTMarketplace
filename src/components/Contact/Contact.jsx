@@ -1,5 +1,5 @@
 import React from 'react';
-import { ValidationSchema } from '../UI/form/MyForm';
+import { ValidationSchema } from '../UI';
 import '../../styles/Contact.css';
 
 const Contact = () => {
